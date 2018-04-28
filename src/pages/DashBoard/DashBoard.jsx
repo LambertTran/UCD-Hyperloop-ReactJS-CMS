@@ -1,9 +1,12 @@
 import React from 'react';
 
+// components
+import Navbar from '../../containers/Navbar/Navbar';
+
 export default function DashBoard() {
   return (
     <div className="dashboard">
-      <div>Navbar</div>
+      <Navbar />
       <h1>WellCome</h1>
       <div>Sub team cards</div>
     </div>

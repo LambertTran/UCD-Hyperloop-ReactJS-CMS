@@ -12,6 +12,5 @@ describe('DashBoard', () => {
   it('renders correctly', () => {
     expect(dashboard).toMatchSnapshot();
   })
-
-  
+    
 })
