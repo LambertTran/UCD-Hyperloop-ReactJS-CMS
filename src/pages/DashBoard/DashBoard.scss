@@ -1,0 +1,20 @@
+.dashboard{
+  margin: 0 auto;
+  padding-top: 100px;
+  max-width: 1300px;
+  @include flexCol;
+  justify-content: center;
+  align-items: center;
+  
+  h1{
+    text-align: center;
+  }
+}
+
+.dashboard-teams{
+  @include flexCol;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: center;
+}
