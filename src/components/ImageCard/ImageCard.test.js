@@ -13,27 +13,19 @@ describe('ImageCard', () => {
   const props = {img,subteam};
 
   // mock component
-  const mockImageCard = jest.fn();
   const imageCard = shallow( <ImageCard {...props} /> );
 
   it('renders correctly', () => {
     expect(imageCard).toMatchSnapshot();
   })
 
-  describe('when props are passed into this component', () => {{
+  describe('when props are passed into this component', () => {
     it('has image link', () => {
-      expect(imageCard.find('.image-card img').prop('src')).toEqual(img);
-    })
+      expect(imageCard.find('img').prop('src')).toEqual(img);
+    });
     
-    it('has correct url and title', () => {
-      expect(imageCard.find('.image-card h3').text()).toEqual(subteam);
-    })
-  }})
-
-  describe('when clicking on `ImageCard`', () => {
-
-    beforeEach(() =>{
-      imageCard.find('.image-card').simulate('click');
-    })
+    it('has correct title', () => {
+      expect(imageCard.find('h3').text()).toEqual(subteam);
+    });
   })
 })

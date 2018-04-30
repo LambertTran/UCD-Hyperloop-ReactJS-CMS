@@ -32,7 +32,7 @@ ShallowWrapper {
                 src="http://kb4images.com//images/image/37272651-image.jpg"
         />
 </Link>,
-      "className": "image-card",
+      "className": undefined,
     },
     "ref": null,
     "rendered": Object {
@@ -100,7 +100,7 @@ ShallowWrapper {
                     src="http://kb4images.com//images/image/37272651-image.jpg"
           />
 </Link>,
-        "className": "image-card",
+        "className": undefined,
       },
       "ref": null,
       "rendered": Object {

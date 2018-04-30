@@ -9,6 +9,9 @@ import { getAllSubTeams } from '../../actions/getRequest';
 import Navbar from '../../containers/Navbar/Navbar';
 import ImageCard from '../../components/ImageCard/ImageCard';
 
+/** Styles */
+import './DashBoard.scss';
+
 export class DashBoard extends React.Component {
   
   componentDidMount() {
@@ -21,7 +24,9 @@ export class DashBoard extends React.Component {
         <ImageCard 
           key = {subteam.team_id}
           subteam={subteam.team}
-          img = {subteam.team_img}/>
+          img = {subteam.team_img}
+          styleClass = 'subteam'
+        />
       )
     })
   }

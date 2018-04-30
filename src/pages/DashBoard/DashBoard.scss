@@ -1,6 +1,7 @@
+@import '../../shares/scss/properties.scss';
+
 .dashboard{
   margin: 0 auto;
-  padding-top: 100px;
   max-width: 1300px;
   @include flexCol;
   justify-content: center;
@@ -17,4 +18,28 @@
   flex-wrap: wrap;
   padding: 40px;
   justify-content: center;
+}
+
+.subteam{
+  flex-basis: 250px;
+  margin: 20px 10px;
+  border: 0.5px solid rgba(201, 76, 76, 0.3);
+  box-shadow: 5px 10px 15px black;
+  border-radius: 20px;
+  padding: 0 5px;
+  img{
+    height: 200px;
+    width: 100%;
+    box-shadow: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    p{
+      margin-top: 10px;
+      color: #0D47A1;
+      font-weight: bold;
+    }
+  }
 }
