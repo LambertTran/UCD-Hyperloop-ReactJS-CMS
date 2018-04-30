@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ImageCard
     img="http://kb4images.com//images/image/37272651-image.jpg"
+    styleClass="card-style"
     subteam="business-team"
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -32,7 +33,7 @@ ShallowWrapper {
                 src="http://kb4images.com//images/image/37272651-image.jpg"
         />
 </Link>,
-      "className": undefined,
+      "className": "card-style",
     },
     "ref": null,
     "rendered": Object {
@@ -100,7 +101,7 @@ ShallowWrapper {
                     src="http://kb4images.com//images/image/37272651-image.jpg"
           />
 </Link>,
-        "className": undefined,
+        "className": "card-style",
       },
       "ref": null,
       "rendered": Object {
