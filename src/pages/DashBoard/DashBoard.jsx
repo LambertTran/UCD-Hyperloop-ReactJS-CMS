@@ -23,7 +23,7 @@ export class DashBoard extends React.Component {
       return (
         <ImageCard 
           key = {subteam.team_id}
-          subteam={subteam.team}
+          subteam={`/team/${subteam.team}`}
           img = {subteam.team_img}
           styleClass = 'subteam'
         />
@@ -39,7 +39,6 @@ export class DashBoard extends React.Component {
         <div>
           {this.renderSubTeamList()}  
         </div>
-
       </div>
     )
   }
@@ -48,6 +47,6 @@ export class DashBoard extends React.Component {
 
 export default connect(state => {
   return {
-    subteams: state
+    subteams: state.allSubTeams
   }
 }, { getAllSubTeams })(DashBoard);

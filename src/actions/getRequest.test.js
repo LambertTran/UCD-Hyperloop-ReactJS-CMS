@@ -1,27 +1,32 @@
-// packages
-import setupTests from '../../shares/setupTests';
+// /** Packages */
+// import configureMockStore from 'redux-mock-store';
+// import thunk from 'redux-thunk';
+// import fetchMock from 'fetch-mock';
 
-import configureMockStore from 'redux-mock-store';
+// /** Helpers */
+// import * as constants from './constants';
+// import * as get from './getRequest';
 
-import thunk from 'redux-thunk';
+// /** Create store */
+// const createMockStore = configureMockStore([thunk]);
+// const store = createMockStore({ data: {} });
 
-import fetchMock from 'fetch-mock';
+// const mockResponse = {
+//   body: {}
+// }
 
-import * as constants from './constants';
-import * as actions from './getRequest';
+// fetchMock.get(constants.URL,mockResponse);
 
-// create store
-const createMockStore = configureMockStore([thunk]);
-const store = createMockStore({ data: {} });
+// describe('getRequests', () => {
+//   it('makes get all subteams for dashboard page', () => {
+//     const expectedResponse = {
+//       type: constants.GET_ALL_SUBTEAMS,
+//       allSubTeams: [],
+//     }
 
-const mockResponse = {
-  body: {}
-}
-
-fetchMock.get(constants.URL,mockResponse);
-
-describe('getRequests', () => {
-  it('makes get all subteams for dashboard page', () => {
-    
-  })
-})
+//     return store.dispatch(get.getAllSubTeams())
+//       .then(() => {
+//         expect(store.getActions()).toEqual(expectedResponse);
+//       })
+//   })
+// })

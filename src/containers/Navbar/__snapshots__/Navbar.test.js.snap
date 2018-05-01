@@ -19,10 +19,26 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <li>
-          Home
+          <i
+                    aria-hidden="true"
+                    className="fa fa-tachometer"
+          />
+          <a
+                    href="/admin/"
+          >
+                    DashBoard
+          </a>
 </li>,
         <li>
-          Log out
+          <i
+                    aria-hidden="true"
+                    className="fa fa-sign-out"
+          />
+          <a
+                    href="/logout"
+          >
+                    Log out
+          </a>
 </li>,
       ],
       "className": "c-navbar",
@@ -34,10 +50,45 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Home",
+          "children": Array [
+            <i
+              aria-hidden="true"
+              className="fa fa-tachometer"
+/>,
+            <a
+              href="/admin/"
+>
+              DashBoard
+</a>,
+          ],
         },
         "ref": null,
-        "rendered": "Home",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-hidden": "true",
+              "className": "fa fa-tachometer",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "DashBoard",
+              "href": "/admin/",
+            },
+            "ref": null,
+            "rendered": "DashBoard",
+            "type": "a",
+          },
+        ],
         "type": "li",
       },
       Object {
@@ -45,10 +96,45 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Log out",
+          "children": Array [
+            <i
+              aria-hidden="true"
+              className="fa fa-sign-out"
+/>,
+            <a
+              href="/logout"
+>
+              Log out
+</a>,
+          ],
         },
         "ref": null,
-        "rendered": "Log out",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-hidden": "true",
+              "className": "fa fa-sign-out",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Log out",
+              "href": "/logout",
+            },
+            "ref": null,
+            "rendered": "Log out",
+            "type": "a",
+          },
+        ],
         "type": "li",
       },
     ],
@@ -62,10 +148,26 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <li>
-            Home
+            <i
+                        aria-hidden="true"
+                        className="fa fa-tachometer"
+            />
+            <a
+                        href="/admin/"
+            >
+                        DashBoard
+            </a>
 </li>,
           <li>
-            Log out
+            <i
+                        aria-hidden="true"
+                        className="fa fa-sign-out"
+            />
+            <a
+                        href="/logout"
+            >
+                        Log out
+            </a>
 </li>,
         ],
         "className": "c-navbar",
@@ -77,10 +179,45 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Home",
+            "children": Array [
+              <i
+                aria-hidden="true"
+                className="fa fa-tachometer"
+/>,
+              <a
+                href="/admin/"
+>
+                DashBoard
+</a>,
+            ],
           },
           "ref": null,
-          "rendered": "Home",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "aria-hidden": "true",
+                "className": "fa fa-tachometer",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "DashBoard",
+                "href": "/admin/",
+              },
+              "ref": null,
+              "rendered": "DashBoard",
+              "type": "a",
+            },
+          ],
           "type": "li",
         },
         Object {
@@ -88,10 +225,45 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Log out",
+            "children": Array [
+              <i
+                aria-hidden="true"
+                className="fa fa-sign-out"
+/>,
+              <a
+                href="/logout"
+>
+                Log out
+</a>,
+            ],
           },
           "ref": null,
-          "rendered": "Log out",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "aria-hidden": "true",
+                "className": "fa fa-sign-out",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Log out",
+                "href": "/logout",
+              },
+              "ref": null,
+              "rendered": "Log out",
+              "type": "a",
+            },
+          ],
           "type": "li",
         },
       ],
