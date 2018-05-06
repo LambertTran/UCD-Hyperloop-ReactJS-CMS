@@ -9,7 +9,7 @@ export const getAllSubTeams = () => {
   const req = axios.get(`${constants.URL}/${location}`);
   
   return dispatch => {
-    req.then((res) => {
+    return req.then((res) => {
       dispatch({
         type: constants.GET_ALL_SUBTEAMS,
         allSubTeams: res.data
@@ -19,10 +19,7 @@ export const getAllSubTeams = () => {
 }
 
 export const getSubTeam = (teamName) => {
-
-
   const req = axios.get(`${constants.URL}/team/${teamName}`);
-  
   return dispatch => {
     req.then((res) => {
       dispatch({

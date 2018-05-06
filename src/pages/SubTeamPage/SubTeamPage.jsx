@@ -8,11 +8,26 @@ import { getSubTeam } from '../../actions/getRequest';
 /** Styles */
 import './SubTeamPage.scss';
 
+/** Components */
+import InputForm from '../../components/InputForm/InputForm';
+
+
 export class SubTeamPage extends React.Component {
+
+  constructor() {
+    super();
+    this.state = {
+      isModalOpen: false,
+    }
+  }
 
   componentDidMount() {
     const teamName = this.props.match.params.teamName;
     this.props.getSubTeam(teamName);
+  }
+
+  openModal = () => {
+    this.setState({ isModalOpen: true });
   }
 
   render() {
@@ -34,6 +49,9 @@ export class SubTeamPage extends React.Component {
             {/* <p>{{team_detail}}</p> */}
           </div>
         </div>
+
+        <InputForm />
+        <InputForm />
       </div>
 
     )
