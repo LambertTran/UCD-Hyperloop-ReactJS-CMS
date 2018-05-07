@@ -39,7 +39,7 @@ ShallowWrapper {
         </div>
         <button
                 className="btn btn-primary"
-                onClick={[Function]}
+                onClick={undefined}
                 type="submit"
         >
                 Upload
@@ -53,6 +53,9 @@ ShallowWrapper {
         </button>
 </form>,
       "className": "upload-modal-content",
+      "style": Object {
+        "opacity": 0,
+      },
     },
     "ref": null,
     "rendered": Object {
@@ -79,7 +82,7 @@ ShallowWrapper {
 </div>,
           <button
             className="btn btn-primary"
-            onClick={[Function]}
+            onClick={undefined}
             type="submit"
 >
             Upload
@@ -161,7 +164,7 @@ ShallowWrapper {
           "props": Object {
             "children": "Upload",
             "className": "btn btn-primary",
-            "onClick": [Function],
+            "onClick": undefined,
             "type": "submit",
           },
           "ref": null,
@@ -215,7 +218,7 @@ ShallowWrapper {
           </div>
           <button
                     className="btn btn-primary"
-                    onClick={[Function]}
+                    onClick={undefined}
                     type="submit"
           >
                     Upload
@@ -229,6 +232,9 @@ ShallowWrapper {
           </button>
 </form>,
         "className": "upload-modal-content",
+        "style": Object {
+          "opacity": 0,
+        },
       },
       "ref": null,
       "rendered": Object {
@@ -255,7 +261,7 @@ ShallowWrapper {
 </div>,
             <button
               className="btn btn-primary"
-              onClick={[Function]}
+              onClick={undefined}
               type="submit"
 >
               Upload
@@ -337,7 +343,7 @@ ShallowWrapper {
             "props": Object {
               "children": "Upload",
               "className": "btn btn-primary",
-              "onClick": [Function],
+              "onClick": undefined,
               "type": "submit",
             },
             "ref": null,

@@ -9,7 +9,7 @@ import { getSubTeam } from '../../actions/getRequest';
 import './SubTeamPage.scss';
 
 /** Components */
-import InputForm from '../../components/InputForm/InputForm';
+import InputModal from '../../containers/InputModal/InputModal';
 
 
 export class SubTeamPage extends React.Component {
@@ -38,20 +38,15 @@ export class SubTeamPage extends React.Component {
           <h2>{this.props.subteam.team}</h2>
           <hr />
           <div className="subteam-manage">
-            <button id="upload-btn" name="image" className="btn btn-outline-primary" >Update team image</button>
-            <button id="upload-btn" name="detail" className="btn btn-outline-success">Update team description</button>
+            <InputModal btnName='Update team image' />
+            <InputModal btnName='Update team description' />
           </div>
           <div className="subteam-data">
             <h3>Team image</h3><hr />
-            {/* <img src={team_img} alt="team" /> */}
             <p>Note: There is no image yet! Please upload your team image</p>
             <h3> Team Description </h3><hr />
-            {/* <p>{{team_detail}}</p> */}
           </div>
         </div>
-
-        <InputForm />
-        <InputForm />
       </div>
 
     )

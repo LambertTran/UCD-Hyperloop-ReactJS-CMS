@@ -28,8 +28,258 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
+      "children": <div
+        className="col-12 col-md-9 ml-auto subteam-pg"
+>
+        <h2 />
+        <hr />
         <div
+                className="subteam-manage"
+        >
+                <button
+                        className="btn btn-primary"
+                        id="upload-btn"
+                        name="image"
+                >
+                        Update team image
+                </button>
+                <button
+                        className="btn btn-success"
+                        id="upload-btn"
+                        name="detail"
+                >
+                        Update team description
+                </button>
+        </div>
+        <div
+                className="subteam-data"
+        >
+                <h3>
+                        Team image
+                </h3>
+                <hr />
+                <p>
+                        Note: There is no image yet! Please upload your team image
+                </p>
+                <h3>
+                         Team Description 
+                </h3>
+                <hr />
+        </div>
+</div>,
+      "className": "row no-gutters",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2 />,
+          <hr />,
+          <div
+            className="subteam-manage"
+>
+            <button
+                        className="btn btn-primary"
+                        id="upload-btn"
+                        name="image"
+            >
+                        Update team image
+            </button>
+            <button
+                        className="btn btn-success"
+                        id="upload-btn"
+                        name="detail"
+            >
+                        Update team description
+            </button>
+</div>,
+          <div
+            className="subteam-data"
+>
+            <h3>
+                        Team image
+            </h3>
+            <hr />
+            <p>
+                        Note: There is no image yet! Please upload your team image
+            </p>
+            <h3>
+                         Team Description 
+            </h3>
+            <hr />
+</div>,
+        ],
+        "className": "col-12 col-md-9 ml-auto subteam-pg",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="btn btn-primary"
+                id="upload-btn"
+                name="image"
+>
+                Update team image
+</button>,
+              <button
+                className="btn btn-success"
+                id="upload-btn"
+                name="detail"
+>
+                Update team description
+</button>,
+            ],
+            "className": "subteam-manage",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Update team image",
+                "className": "btn btn-primary",
+                "id": "upload-btn",
+                "name": "image",
+              },
+              "ref": null,
+              "rendered": "Update team image",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Update team description",
+                "className": "btn btn-success",
+                "id": "upload-btn",
+                "name": "detail",
+              },
+              "ref": null,
+              "rendered": "Update team description",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Team image
+</h3>,
+              <hr />,
+              <p>
+                Note: There is no image yet! Please upload your team image
+</p>,
+              <h3>
+                 Team Description 
+</h3>,
+              <hr />,
+            ],
+            "className": "subteam-data",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Team image",
+              },
+              "ref": null,
+              "rendered": "Team image",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "hr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Note: There is no image yet! Please upload your team image",
+              },
+              "ref": null,
+              "rendered": "Note: There is no image yet! Please upload your team image",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Team Description ",
+              },
+              "ref": null,
+              "rendered": " Team Description ",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "hr",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
           className="col-12 col-md-9 ml-auto subteam-pg"
 >
           <h2 />
@@ -38,14 +288,14 @@ ShallowWrapper {
                     className="subteam-manage"
           >
                     <button
-                              className="btn btn-outline-primary"
+                              className="btn btn-primary"
                               id="upload-btn"
                               name="image"
                     >
                               Update team image
                     </button>
                     <button
-                              className="btn btn-outline-success"
+                              className="btn btn-success"
                               id="upload-btn"
                               name="detail"
                     >
@@ -68,14 +318,10 @@ ShallowWrapper {
                     <hr />
           </div>
 </div>,
-        <InputForm />,
-        <InputForm />,
-      ],
-      "className": "row no-gutters",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
+        "className": "row no-gutters",
+      },
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -87,14 +333,14 @@ ShallowWrapper {
               className="subteam-manage"
 >
               <button
-                            className="btn btn-outline-primary"
+                            className="btn btn-primary"
                             id="upload-btn"
                             name="image"
               >
                             Update team image
               </button>
               <button
-                            className="btn btn-outline-success"
+                            className="btn btn-success"
                             id="upload-btn"
                             name="detail"
               >
@@ -148,14 +394,14 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <button
-                  className="btn btn-outline-primary"
+                  className="btn btn-primary"
                   id="upload-btn"
                   name="image"
 >
                   Update team image
 </button>,
                 <button
-                  className="btn btn-outline-success"
+                  className="btn btn-success"
                   id="upload-btn"
                   name="detail"
 >
@@ -172,7 +418,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Update team image",
-                  "className": "btn btn-outline-primary",
+                  "className": "btn btn-primary",
                   "id": "upload-btn",
                   "name": "image",
                 },
@@ -186,7 +432,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Update team description",
-                  "className": "btn btn-outline-success",
+                  "className": "btn btn-success",
                   "id": "upload-btn",
                   "name": "detail",
                 },
@@ -276,300 +522,6 @@ ShallowWrapper {
         ],
         "type": "div",
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="col-12 col-md-9 ml-auto subteam-pg"
->
-            <h2 />
-            <hr />
-            <div
-                        className="subteam-manage"
-            >
-                        <button
-                                    className="btn btn-outline-primary"
-                                    id="upload-btn"
-                                    name="image"
-                        >
-                                    Update team image
-                        </button>
-                        <button
-                                    className="btn btn-outline-success"
-                                    id="upload-btn"
-                                    name="detail"
-                        >
-                                    Update team description
-                        </button>
-            </div>
-            <div
-                        className="subteam-data"
-            >
-                        <h3>
-                                    Team image
-                        </h3>
-                        <hr />
-                        <p>
-                                    Note: There is no image yet! Please upload your team image
-                        </p>
-                        <h3>
-                                     Team Description 
-                        </h3>
-                        <hr />
-            </div>
-</div>,
-          <InputForm />,
-          <InputForm />,
-        ],
-        "className": "row no-gutters",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h2 />,
-              <hr />,
-              <div
-                className="subteam-manage"
->
-                <button
-                                className="btn btn-outline-primary"
-                                id="upload-btn"
-                                name="image"
-                >
-                                Update team image
-                </button>
-                <button
-                                className="btn btn-outline-success"
-                                id="upload-btn"
-                                name="detail"
-                >
-                                Update team description
-                </button>
-</div>,
-              <div
-                className="subteam-data"
->
-                <h3>
-                                Team image
-                </h3>
-                <hr />
-                <p>
-                                Note: There is no image yet! Please upload your team image
-                </p>
-                <h3>
-                                 Team Description 
-                </h3>
-                <hr />
-</div>,
-            ],
-            "className": "col-12 col-md-9 ml-auto subteam-pg",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": undefined,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "h2",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": "hr",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <button
-                    className="btn btn-outline-primary"
-                    id="upload-btn"
-                    name="image"
->
-                    Update team image
-</button>,
-                  <button
-                    className="btn btn-outline-success"
-                    id="upload-btn"
-                    name="detail"
->
-                    Update team description
-</button>,
-                ],
-                "className": "subteam-manage",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Update team image",
-                    "className": "btn btn-outline-primary",
-                    "id": "upload-btn",
-                    "name": "image",
-                  },
-                  "ref": null,
-                  "rendered": "Update team image",
-                  "type": "button",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Update team description",
-                    "className": "btn btn-outline-success",
-                    "id": "upload-btn",
-                    "name": "detail",
-                  },
-                  "ref": null,
-                  "rendered": "Update team description",
-                  "type": "button",
-                },
-              ],
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <h3>
-                    Team image
-</h3>,
-                  <hr />,
-                  <p>
-                    Note: There is no image yet! Please upload your team image
-</p>,
-                  <h3>
-                     Team Description 
-</h3>,
-                  <hr />,
-                ],
-                "className": "subteam-data",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Team image",
-                  },
-                  "ref": null,
-                  "rendered": "Team image",
-                  "type": "h3",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {},
-                  "ref": null,
-                  "rendered": null,
-                  "type": "hr",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Note: There is no image yet! Please upload your team image",
-                  },
-                  "ref": null,
-                  "rendered": "Note: There is no image yet! Please upload your team image",
-                  "type": "p",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": " Team Description ",
-                  },
-                  "ref": null,
-                  "rendered": " Team Description ",
-                  "type": "h3",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {},
-                  "ref": null,
-                  "rendered": null,
-                  "type": "hr",
-                },
-              ],
-              "type": "div",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
       "type": "div",
     },
   ],
